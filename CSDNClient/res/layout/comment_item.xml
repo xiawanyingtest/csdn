@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    
+	<TextView
+	    android:id="@+id/name"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="username"
+	    android:textSize="14sp"
+	    android:textColor="@color/light_blue"
+	    android:layout_marginBottom="4dp"
+	    />
+	<!-- <ImageView
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/biz_pc_account_line"
+	    /> -->
+	<TextView
+	    android:id="@+id/content"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="4dp"
+	    android:text="mark"
+	    android:textSize="16sp"
+	    />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="4dp"
+	    >
+		<TextView
+		    android:id="@+id/replyCount"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text=""
+		    android:gravity="center"
+		    android:textSize="12sp"
+		    android:textColor="@color/nomalGray"
+		    />
+		<TextView
+		    android:id="@+id/date"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="2013-10-11"
+		    android:textSize="12sp"
+		    android:textColor="@color/nomalGray"
+		    android:gravity="right"
+		    />
+	</LinearLayout>
+</LinearLayout>

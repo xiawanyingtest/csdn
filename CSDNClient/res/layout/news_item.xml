@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+    >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:baselineAligned="true"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:background="@drawable/list_item"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:lines="3"
+                android:text="游戏是的发生的发生订单是否史蒂夫史蒂夫第三方的萨芬撒"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="2013-07-08"
+                android:textColor="@color/nomalGray" />
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                android:gravity="right"
+                android:textColor="@color/nomalGray"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+			<!-- <TextView
+                android:id="@+id/availableNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/nomalGray"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/bg_mark_pressed"
+                android:text="可借：4"
+                android:textSize="13sp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_centerVertical="true"
+                 /> -->
+    <ImageView 
+        android:id="@+id/bookCheck"
+        android:src="@drawable/dict_result_in_note_true"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:visibility="invisible"/>
+    <ImageView 
+        android:src="@drawable/material_go_pressed"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerVertical="true"
+    	android:layout_alignParentRight="true"
+    	android:visibility="invisible"
+    	/>
+</RelativeLayout>
